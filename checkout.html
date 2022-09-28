@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en"> 
+    <head>
+        <title>Checkout | JOOX</title> 
+        <link rel="stylesheet" href="css/styles.min.css" type="text/css">
+        <link rel="shortcut icon" href="images/icons/favicon.ico">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <meta name="format-detection" content="telephone=no"> 
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"> 
+    </head>
+<body>
+
+	<div class="wrapper">
+
+        <main class="main">
+
+            <header class="header header--mod">
+                <div class="container">
+                    <div class="header__wrapper">
+                        <a href="index.html" class="header__logo logo">
+                            <span>J</span>OOX
+                        </a>
+                        <div class="header__buttons">
+                            <nav class="header__menu">
+                                <ul class="header__list">
+                                    <li class="header__list-item">
+                                        <a href="shop.html" class="header__link">Shop</a>
+                                    </li>
+                                    <li class="header__list-item">
+                                        <a href="blog-general.html" class="header__link">Blog</a>
+                                    </li>
+                                    <li class="header__list-item">
+                                        <a href="about.html" class="header__link">About us</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <div class="header__navigation">
+                                <a href="#" class="header__nav-link header__nav-link--search">
+                                    <img src="images/icons/search.svg" alt="">
+                                </a>
+                                <a href="shopping-cart.html" class="header__nav-link">
+                                    <img src="images/icons/cart.svg" alt="">
+                                </a>
+                                <a href="#" class="header__nav-link">
+                                    <img src="images/icons/heart.svg" alt="">
+                                </a>
+                                <div class="search-form search-form--positioned">
+                                    <input type="text" class="search-form__input" placeholder="Search...">
+                                    <button class="search-form__button">
+                                        <img src="images/icons/search.svg" alt="">
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="header__hamburger-menu">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <section class="checkout">
+                <div class="container">
+                    <div class="checkout__wrapper">
+                        <div class="checkout__title page-title">Checkout</div>
+                        <div class="checkout__top">
+                            <div class="checkout__line">
+                                Returning customer? <a href="account.html">Click here to login</a>
+                            </div>
+                            <div class="checkout__line">
+                                Have a coupon? <a class="checkout__coupon-btn" href="#">Click here to enter your code</a>
+                            </div>
+                            <div class="checkout__coupon hidden">
+                                <div class="checkout__coupon-title">If you have a coupon code, please apply it below.</div>
+                                    <form action="#" class="checkout__coupon-form">
+                                        <div class="checkout__coupon-input-box">
+                                            <input type="text" class="checkout__coupon-input basic-input" placeholder="Coupon Code">
+                                        </div>
+                                        <button class="checkout__coupon-button big-button">apply coupon</button>
+                                    </form>
+                            </div>
+                        </div>
+                        <form action="#" class="checkout__bottom">
+                            <div class="checkout__billing">
+                                <div class="checkout__column-title">Billing Details</div>
+
+                                <div class="personal__addresses-form">
+                                    <div class="personal__addresses-row">
+                                        <div class="personal__addresses-input-box">
+                                            <input type="text" class="personal__addresses-input basic-input" placeholder="First name *">
+                                        </div>
+                                        <div class="personal__addresses-input-box">
+                                            <input type="text" class="personal__addresses-input basic-input" placeholder="Last name *">
+                                        </div>
+                                    </div>
+                                    <div class="personal__addresses-input-box">
+                                        <input type="text" class="personal__addresses-input basic-input" placeholder="Company Name">
+                                    </div>
+                                    <div class="personal__addresses-input-box">
+                                        <input type="text" class="personal__addresses-input basic-input" placeholder="Country *">
+                                    </div>
+                                    <div class="personal__addresses-input-box">
+                                        <input type="text" class="personal__addresses-input basic-input" placeholder="Street Address *">
+                                    </div>
+                                    <div class="personal__addresses-input-box">
+                                        <input type="text" class="personal__addresses-input basic-input" placeholder="Postcode / ZIP *">
+                                    </div>
+                                    <div class="personal__addresses-input-box">
+                                        <input type="text" class="personal__addresses-input basic-input" placeholder="Town / City *">
+                                    </div>
+                                    <div class="personal__addresses-input-box">
+                                        <input type="text" class="personal__addresses-input basic-input" placeholder="Phone *">
+                                    </div>
+                                    <div class="personal__addresses-input-box">
+                                        <input type="text" class="personal__addresses-input basic-input" placeholder="Email *">
+                                    </div>
+                                    <label class="checkout__checkbox">
+                                        <input type="checkbox" class="input-hidden">
+                                        <span class="checkout__checkbox-span"></span>
+                                        <span class="checkout__checkbox-text">Create an account?</span>
+                                    </label>
+                                    <label class="checkout__checkbox">
+                                        <input type="checkbox" class="input-hidden">
+                                        <span class="checkout__checkbox-span"></span>
+                                        <span class="checkout__checkbox-text">Ship to a different address?</span>
+                                    </label>
+                                    <div class="personal__addresses-input-box">
+                                        <textarea class="basic-input" placeholder="Order notes"></textarea>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="checkout__order">
+                                <div class="checkout__column-title">Your Order</div>
+                                <div class="order__summary">
+                                    <div class="order__summary-row order__summary-row--heading">
+                                        <div class="order__summary-left">Product</div>
+                                        <div class="order__summary-right">Total</div>
+                                    </div>
+                                    <div class="order__summary-row order__summary-row--product">
+                                        <div class="order__summary-left">Lira Earrings</div>
+                                        <div class="order__summary-right">$64</div>
+                                    </div>
+                                    <div class="order__summary-row order__summary-row--product">
+                                        <div class="order__summary-left">Ollie Earrings</div>
+                                        <div class="order__summary-right">$10</div>
+                                    </div>
+                                    <div class="order__summary-row order__summary-row--product">
+                                        <div class="order__summary-left">Kaede Hair Pin</div>
+                                        <div class="order__summary-right">$10</div>
+                                    </div>
+                                    <div class="order__summary-row order__summary-row--subtotal order__summary-row--heading">
+                                        <div class="order__summary-left">subtotal</div>
+                                        <div class="order__summary-right">$85</div>
+                                    </div>
+                                    <div class="order__summary-row order__summary-row--shipping order__summary-row--heading">
+                                        <div class="order__summary-left">shipping</div>
+                                        <div class="order__summary-right">Free shipping</div>
+                                    </div>
+                                    <div class="order__summary-row order__summary-row--total">
+                                        <div class="order__summary-left">Total</div>
+                                        <div class="order__summary-right">$85</div>
+                                    </div>
+
+                                    <div class="checkout__payment">
+                                        <label class="checkout__payment-option">
+                                            <input type="radio" name="payment-option" class="input-hidden">
+                                            <span class="checkout__payment-dot"></span>
+                                            <span class="checkout__payment-text">Direct bank transfer</span>
+                                            <div class="checkout__payment-about hidden">Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order will not
+                                            be shipped until the funds have cleared in our account</div>
+                                        </label>
+                                        <label class="checkout__payment-option">
+                                            <input type="radio" name="payment-option" class="input-hidden">
+                                            <span class="checkout__payment-dot"></span>
+                                            <span class="checkout__payment-text">Check payments</span>
+                                            <div class="checkout__payment-about hidden">mic check one two...</div>
+                                        </label>
+                                        <label class="checkout__payment-option">
+                                            <input type="radio" name="payment-option" class="input-hidden">
+                                            <span class="checkout__payment-dot"></span>
+                                            <span class="checkout__payment-text">Cash on delivery</span>
+                                            <div class="checkout__payment-about hidden">Cash rules everything around me, cream, get the money, dollar dollar bill yo!</div>
+                                        </label>
+                                        <label class="checkout__payment-option">
+                                            <input type="radio" name="payment-option" class="input-hidden">
+                                            <span class="checkout__payment-dot"></span>
+                                            <span class="checkout__payment-text">PayPal <span><img src="images/icons/paypal.svg" alt=""></span></span>
+                                            <div class="checkout__payment-about hidden">Meanwhile Elon Musk is smoking weed...</div>
+                                        </label>
+                                    </div>
+
+                                    <button class="checkout__order-button big-button">place order</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            
+
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__wrapper">
+                    <div class="footer__top">
+                        <ul class="footer__menu">
+                            <li class="footer__list-item">
+                                <a href="#" class="footer__menu-link">Contact</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="#" class="footer__menu-link">Terms of services</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="#" class="footer__menu-link">Shipping and returns</a>
+                            </li>
+                        </ul>
+                        <form action="#" class="footer__subscribe">
+                            <div class="footer__box">
+                            <input type="text" class="footer__input" placeholder="Give an email, get the newsletter.">
+                            <button type="submit" class="footer__button">
+                                <img src="images/icons/arrow-right.svg" alt="">
+                            </button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="footer__bottom">
+                        <div class="footer__copyright">© 2021 Shelly. <a href="#">Terms of use</a> and <a href="#">privacy policy</a>.</div>
+                        <div class="footer__social">
+                            <a href="#" class="footer__social-link">
+                                <img src="images/icons/in.svg" alt="">
+                            </a>
+                            <a href="#" class="footer__social-link">
+                                <img src="images/icons/f.svg" alt="">
+                            </a>
+                            <a href="#" class="footer__social-link">
+                                <img src="images/icons/ig.svg" alt="">
+                            </a>
+                            <a href="#" class="footer__social-link">
+                                <img src="images/icons/twi.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+	</div>
+
+
+    
+
+<script src="js/main.min.js"></script>
+
+</body>
+ </html>

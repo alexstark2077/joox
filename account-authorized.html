@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en"> 
+    <head>
+        <title>Your account | JOOX</title> 
+        <link rel="stylesheet" href="css/styles.min.css" type="text/css">
+        <link rel="shortcut icon" href="images/icons/favicon.ico">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <meta name="format-detection" content="telephone=no"> 
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"> 
+    </head>
+<body>
+
+	<div class="wrapper">
+
+        <main class="main">
+
+            <header class="header header--mod">
+                <div class="container">
+                    <div class="header__wrapper">
+                        <a href="index.html" class="header__logo logo">
+                            <span>J</span>OOX
+                        </a>
+                        <div class="header__buttons">
+                            <nav class="header__menu">
+                                <ul class="header__list">
+                                    <li class="header__list-item">
+                                        <a href="shop.html" class="header__link">Shop</a>
+                                    </li>
+                                    <li class="header__list-item">
+                                        <a href="blog-general.html" class="header__link">Blog</a>
+                                    </li>
+                                    <li class="header__list-item">
+                                        <a href="about.html" class="header__link">About us</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <div class="header__navigation">
+                                <a href="#" class="header__nav-link header__nav-link--search">
+                                    <img src="images/icons/search.svg" alt="">
+                                </a>
+                                <a href="shopping-cart.html" class="header__nav-link">
+                                    <img src="images/icons/cart.svg" alt="">
+                                </a>
+                                <a href="#" class="header__nav-link">
+                                    <img src="images/icons/heart.svg" alt="">
+                                </a>
+                                <div class="search-form search-form--positioned">
+                                    <input type="text" class="search-form__input" placeholder="Search...">
+                                    <button class="search-form__button">
+                                        <img src="images/icons/search.svg" alt="">
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="header__hamburger-menu">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <section class="personal">
+                <div class="container">
+                    <div class="personal__wrapper">
+                        <div class="personal__title page-title">My Account</div>
+                        <div class="personal__tabs">
+                            <div class="personal__tabs-triggers">
+                                        <a href="#dashboard" class="personal__tabs-trigger personal__tabs-trigger--active">Dashboard</a>
+                                        <a href="#orders" class="personal__tabs-trigger">Orders</a>
+                                        <a href="#downloads" class="personal__tabs-trigger">Downloads</a>
+                                        <a href="#addresses" class="personal__tabs-trigger">Addresses</a>
+                                        <a href="#details" class="personal__tabs-trigger">Account details</a>
+                                        <a href="#logout" class="personal__tabs-trigger">Logout</a>
+                            </div>
+                            <div class="personal__tabs-triggers personal__tabs-triggers--mobile swiper">
+                                    <div class="swiper-wrapper">
+                                        <a href="#dashboard" class="swiper-slide personal__tabs-trigger personal__tabs-trigger--active">Dashboard</a>
+                                        <a href="#orders" class="swiper-slide personal__tabs-trigger">Orders</a>
+                                        <a href="#downloads" class="swiper-slide personal__tabs-trigger">Downloads</a>
+                                        <a href="#addresses" class="swiper-slide personal__tabs-trigger">Addresses</a>
+                                        <a href="#details" class="swiper-slide personal__tabs-trigger">Account details</a>
+                                        <a href="#logout" class="swiper-slide personal__tabs-trigger">Logout</a>
+                                    </div>
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-button-next"></div>
+                            </div>
+                            <div class="personal__tabs-contents">
+
+                                <div id="dashboard" class="personal__tabs-content personal__tabs-content--active personal__dashboard">
+                                    <div class="personal__text">
+                                        <p>
+                                            Hello John (not John? <a class="personal__link" href="#">Log out</a>)
+                                        </p>
+                                        <p>
+                                        From your account dashboard you can view your <a class="personal__link" href="#">recent orders</a>, manage your <a class="personal__link" href="#">shipping and billing addresses</a>, and edit your
+                                        <a class="personal__link" href="#">password and account details</a>.
+                                        </p>
+                                    </div>
+                                </div>
+                                
+                                <div id="orders" class="personal__tabs-content personal__orders">
+                                    
+                                    <div class="notification hidden">
+                                        <div class="container">
+                                            <div class="notification-wrapper">
+                                                <div class="notification-box">
+                                                    <div class="notification-msg">No order has been made yet.</div>
+                                                    <a href="#" class="notification-btn">BROWSE PRODUCT</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <table class="personal__orders-table">
+                                        <thead>
+                                            <tr>
+                                                <th>order number</th>
+                                                <th class="personal__orders-table-date">date</th>
+                                                <th class="personal__orders-table-status">Status</th>
+                                                <th class="personal__orders-table-total">total</th>
+                                                <th>actions</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>7643980998990</td>
+                                                <td class="personal__orders-table-date">October 8,2021</td>
+                                                <td class="personal__orders-table-status">Delivered</td>
+                                                <td class="personal__orders-table-total">$ 105</td>
+                                                <td><a class="personal__link" href="#">View Order</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>7643980998990</td>
+                                                <td class="personal__orders-table-date">October 8,2021</td>
+                                                <td class="personal__orders-table-status">Delivered</td>
+                                                <td class="personal__orders-table-total">$ 105</td>
+                                                <td><a class="personal__link" href="#">View Order</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td>7643980998990</td>
+                                                <td class="personal__orders-table-date">October 8,2021</td>
+                                                <td class="personal__orders-table-status">Processing</td>
+                                                <td class="personal__orders-table-total">$ 105</td>
+                                                <td><a class="personal__link" href="#">View Order</a></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+                                    <div class="personal__mobile-table">
+                                        <div class="personal__mobile-table-row">
+                                            <div class="personal__orders-table-name">order number</div>
+                                            <div class="personal__orders-table-value">7643980998990</div>
+                                        </div>
+                                        <div class="personal__mobile-table-row">
+                                            <div class="personal__orders-table-name">date</div>
+                                            <div class="personal__orders-table-value">October 8,2021</div>
+                                        </div>
+                                        <div class="personal__mobile-table-row">
+                                            <div class="personal__orders-table-name">status</div>
+                                            <div class="personal__orders-table-value">Delivered</div>
+                                        </div>
+                                        <div class="personal__mobile-table-row">
+                                            <div class="personal__orders-table-name">total</div>
+                                            <div class="personal__orders-table-value">$ 105</div>
+                                        </div>
+                                        <div class="personal__mobile-table-row">
+                                            <div class="personal__orders-table-name">actions</div>
+                                            <div class="personal__orders-table-value"><a class="personal__link" href="#">View Order</a></div>
+                                        </div>
+                                    </div>
+                                    <div class="personal__mobile-table">
+                                        <div class="personal__mobile-table-row">
+                                            <div class="personal__orders-table-name">order number</div>
+                                            <div class="personal__orders-table-value">7643980998990</div>
+                                        </div>
+                                        <div class="personal__mobile-table-row">
+                                            <div class="personal__orders-table-name">date</div>
+                                            <div class="personal__orders-table-value">October 8,2021</div>
+                                        </div>
+                                        <div class="personal__mobile-table-row">
+                                            <div class="personal__orders-table-name">status</div>
+                                            <div class="personal__orders-table-value">Delivered</div>
+                                        </div>
+                                        <div class="personal__mobile-table-row">
+                                            <div class="personal__orders-table-name">total</div>
+                                            <div class="personal__orders-table-value">$ 105</div>
+                                        </div>
+                                        <div class="personal__mobile-table-row">
+                                            <div class="personal__orders-table-name">actions</div>
+                                            <div class="personal__orders-table-value"><a class="personal__link" href="#">View Order</a></div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                
+                                <div id="downloads" class="personal__tabs-content personal__downloads">
+                                    
+                                    <div class="notification hidden">
+                                        <div class="container">
+                                            <div class="notification-wrapper">
+                                                <div class="notification-box">
+                                                    <div class="notification-msg">No downloads available yet.</div>
+                                                    <a href="#" class="notification-btn">BROWSE PRODUCT</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <table class="personal__orders-table">
+                                        <thead>
+                                            <tr>
+                                                <th>order number</th>
+                                                <th class="personal__orders-table-date">date</th>
+                                                <th class="personal__orders-table-status">Status</th>
+                                                <th class="personal__orders-table-total">total</th>
+                                                <th>actions</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>7643980998990</td>
+                                                <td class="personal__orders-table-date">October 8,2021</td>
+                                                <td class="personal__orders-table-status">Delivered</td>
+                                                <td class="personal__orders-table-total">$ 105</td>
+                                                <td>
+                                                    <a class="personal__link" href="#">View Order</a>
+                                                    <a class="personal__link" href="#">Download</a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>7643980998990</td>
+                                                <td class="personal__orders-table-date">October 8,2021</td>
+                                                <td class="personal__orders-table-status">Delivered</td>
+                                                <td class="personal__orders-table-total">$ 105</td>
+                                                <td>
+                                                    <a class="personal__link" href="#">View Order</a>
+                                                    <a class="personal__link" href="#">Download</a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>7643980998990</td>
+                                                <td class="personal__orders-table-date">October 8,2021</td>
+                                                <td class="personal__orders-table-status">Processing</td>
+                                                <td class="personal__orders-table-total">$ 105</td>
+                                                <td>
+                                                    <a class="personal__link" href="#">View Order</a>
+                                                    <a class="personal__link" href="#">Download</a>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+                                    <div class="personal__mobile-table">
+                                        <div class="personal__mobile-table-row">
+                                            <div class="personal__orders-table-name">order number</div>
+                                            <div class="personal__orders-table-value">7643980998990</div>
+                                        </div>
+                                        <div class="personal__mobile-table-row">
+                                            <div class="personal__orders-table-name">date</div>
+                                            <div class="personal__orders-table-value">October 8,2021</div>
+                                        </div>
+                                        <div class="personal__mobile-table-row">
+                                            <div class="personal__orders-table-name">status</div>
+                                            <div class="personal__orders-table-value">Delivered</div>
+                                        </div>
+                                        <div class="personal__mobile-table-row">
+                                            <div class="personal__orders-table-name">total</div>
+                                            <div class="personal__orders-table-value">$ 105</div>
+                                        </div>
+                                        <div class="personal__mobile-table-row">
+                                            <div class="personal__orders-table-name">actions</div>
+                                            <div class="personal__orders-table-value">
+                                                <a class="personal__link" href="#">View Order</a>
+                                                <a class="personal__link" href="#">Download</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="personal__mobile-table">
+                                        <div class="personal__mobile-table-row">
+                                            <div class="personal__orders-table-name">order number</div>
+                                            <div class="personal__orders-table-value">7643980998990</div>
+                                        </div>
+                                        <div class="personal__mobile-table-row">
+                                            <div class="personal__orders-table-name">date</div>
+                                            <div class="personal__orders-table-value">October 8,2021</div>
+                                        </div>
+                                        <div class="personal__mobile-table-row">
+                                            <div class="personal__orders-table-name">status</div>
+                                            <div class="personal__orders-table-value">Delivered</div>
+                                        </div>
+                                        <div class="personal__mobile-table-row">
+                                            <div class="personal__orders-table-name">total</div>
+                                            <div class="personal__orders-table-value">$ 105</div>
+                                        </div>
+                                        <div class="personal__mobile-table-row">
+                                            <div class="personal__orders-table-name">actions</div>
+                                            <div class="personal__orders-table-value">
+                                                <a class="personal__link" href="#">View Order</a>
+                                                <a class="personal__link" href="#">Download</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                
+                                <div id="addresses" class="personal__tabs-content personal__addresses">
+                                    <div class="personal__text">
+                                        The following addresses will be used on the checkout page by default.
+                                    </div>
+                                    <div class="personal__addresses-columns">
+                                        <div class="personal__addresses-billing">
+                                            <div class="personal__addresses-column-title">Billing address</div>
+                                            <a href="#" class="personal__link personal__link--billing">ADD</a>
+                                            <div class="personal__smaller-text">You have not set up this type of address yet.</div>
+                                            <form action="#" class="personal__addresses-form hidden">
+                                                <div class="personal__addresses-row">
+                                                    <div class="personal__addresses-input-box">
+                                                        <input type="text" class="personal__addresses-input basic-input" placeholder="First name *">
+                                                    </div>
+                                                    <div class="personal__addresses-input-box">
+                                                        <input type="text" class="personal__addresses-input basic-input" placeholder="Last name *">
+                                                    </div>
+                                                </div>
+                                                <div class="personal__addresses-input-box">
+                                                    <input type="text" class="personal__addresses-input basic-input" placeholder="Company Name">
+                                                </div>
+                                                <div class="personal__addresses-input-box">
+                                                    <input type="text" class="personal__addresses-input basic-input" placeholder="Country *">
+                                                </div>
+                                                <div class="personal__addresses-input-box">
+                                                    <input type="text" class="personal__addresses-input basic-input" placeholder="Street Address *">
+                                                </div>
+                                                <div class="personal__addresses-input-box">
+                                                    <input type="text" class="personal__addresses-input basic-input" placeholder="Postcode / ZIP *">
+                                                </div>
+                                                <div class="personal__addresses-input-box">
+                                                    <input type="text" class="personal__addresses-input basic-input" placeholder="Town / City *">
+                                                </div>
+                                                <div class="personal__addresses-input-box">
+                                                    <input type="text" class="personal__addresses-input basic-input" placeholder="Phone *">
+                                                </div>
+                                                <div class="personal__addresses-input-box">
+                                                    <input type="text" class="personal__addresses-input basic-input" placeholder="Email *">
+                                                </div>
+                                                <button class="personal__addresses-button big-button">save address</button>
+                                            </form>
+                                        </div>
+                                        <div class="personal__addresses-shipping">
+                                            <div class="personal__addresses-column-title">Shipping address</div>
+                                            <a href="#" class="personal__link">ADD</a>
+                                            <div class="personal__smaller-text">You have not set up this type of address yet.</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div id="details" class="personal__tabs-content personal__details">
+                                    <div class="personal__details-title">Account details</div>
+                                    <form action="#" class="personal__details-form">
+                                        <div class="personal__input-box">
+                                            <input type="text" class="personal__input basic-input" placeholder="First Name *">
+                                        </div>
+                                        <div class="personal__input-box">
+                                            <input type="text" class="personal__input basic-input" placeholder="Last Name *">
+                                        </div>
+                                        <div class="personal__input-box">
+                                            <input type="text" class="personal__input basic-input" placeholder="Display Name *">
+                                        </div>
+                                        <div class="personal__tip">This will be how your name will be displayed in the account section and in reviews.</div>
+                                        <div class="personal__input-box">
+                                            <input type="email" class="personal__input basic-input" placeholder="Email Address *">
+                                        </div>
+                                        <div class="personal__details-small-title">Password change</div>
+                                        <div class="personal__input-box">
+                                            <input type="text" class="personal__input basic-input" placeholder="Current password (leave blank to leave unchanged)">
+                                        </div>
+                                        <div class="personal__input-box">
+                                            <input type="text" class="personal__input basic-input" placeholder="New password (leave blank to leave unchanged)">
+                                        </div>
+                                        <div class="personal__input-box">
+                                            <input type="text" class="personal__input basic-input" placeholder="Confirm new password">
+                                        </div>
+                                        <button class="personal__details-button big-button">Save changes</button>
+                                    </form>
+                                </div>
+                                
+                                <div id="logout" class="personal__tabs-content personal__logout">
+                                    <a href="#" class="personal__link">Logout</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__wrapper">
+                    <div class="footer__top">
+                        <ul class="footer__menu">
+                            <li class="footer__list-item">
+                                <a href="#" class="footer__menu-link">Contact</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="#" class="footer__menu-link">Terms of services</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="#" class="footer__menu-link">Shipping and returns</a>
+                            </li>
+                        </ul>
+                        <form action="#" class="footer__subscribe">
+                            <div class="footer__box">
+                            <input type="text" class="footer__input" placeholder="Give an email, get the newsletter.">
+                            <button type="submit" class="footer__button">
+                                <img src="images/icons/arrow-right.svg" alt="">
+                            </button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="footer__bottom">
+                        <div class="footer__copyright">© 2021 Shelly. <a href="#">Terms of use</a> and <a href="#">privacy policy</a>.</div>
+                        <div class="footer__social">
+                            <a href="#" class="footer__social-link">
+                                <img src="images/icons/in.svg" alt="">
+                            </a>
+                            <a href="#" class="footer__social-link">
+                                <img src="images/icons/f.svg" alt="">
+                            </a>
+                            <a href="#" class="footer__social-link">
+                                <img src="images/icons/ig.svg" alt="">
+                            </a>
+                            <a href="#" class="footer__social-link">
+                                <img src="images/icons/twi.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+	</div>
+
+
+    
+
+<script src="js/main.min.js"></script>
+
+</body>
+ </html>
